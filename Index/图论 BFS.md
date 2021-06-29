@@ -6,4 +6,5 @@
 | [773. 滑动谜题](https://leetcode-cn.com/problems/sliding-puzzle/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/sliding-puzzle/solution/gong-shui-san-xie-fa-hui-a-suan-fa-zui-d-3go8/) | 困难 | 🤩🤩🤩🤩     |
 | [815. 公交路线](https://leetcode-cn.com/problems/bus-routes/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/bus-routes/solution/gong-shui-san-xie-yi-ti-shuang-jie-po-su-1roh/) | 困难 | 🤩🤩🤩🤩     |
 | [909. 蛇梯棋](https://leetcode-cn.com/problems/snakes-and-ladders/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/snakes-and-ladders/solution/gong-shui-san-xie-bfs-mo-ni-by-ac_oier-woh6/) | 中等 | 🤩🤩🤩🤩     |
+| [1162. 地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/gong-shui-san-xie-ru-he-shi-yong-duo-yua-vlea/) | 中等 | 🤩🤩🤩🤩     |
 
