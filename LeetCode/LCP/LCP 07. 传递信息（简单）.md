@@ -156,8 +156,6 @@ $$
 f[i][j] = \sum_{i = 0}^{relation.length - 1}f[i - 1][p], relation[i][0]=p,relation[i][1]=j
 $$
 
-这样的做法复杂度为 $O(n * k)$，由于题目数据范围 $k$ 上界比 $n$ 小，因此无须预处理边，直接遍历 `relation` 即可。
-
 代码：
 ```Java []
 class Solution {
@@ -174,7 +172,7 @@ class Solution {
     }
 }
 ```
-* 时间复杂度：$O(n * k)$
+* 时间复杂度：$O(relation.length * k)$
 * 空间复杂度：$O(n * k)$
 
 ---
