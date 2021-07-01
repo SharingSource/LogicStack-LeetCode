@@ -11,4 +11,5 @@
 | [403. 青蛙过河](https://leetcode-cn.com/problems/frog-jump/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/frog-jump/solution/gong-shui-san-xie-yi-ti-duo-jie-jiang-di-74fw/) | 困难 | 🤩🤩🤩 |
 | [1751. 最多可以参加的会议数目 II](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii/solution/po-su-dp-er-fen-dp-jie-fa-by-ac_oier-88du/) | 困难 | 🤩🤩🤩 |
 | [1787. 使所有区间的异或结果为零](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/solution/gong-shui-san-xie-chou-xiang-cheng-er-we-ww79/) | 困难 | 🤩🤩🤩🤩 |
+| [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/chuan-di-xin-xi/solution/gong-shui-san-xie-tu-lun-sou-suo-yu-dong-cyxo/) | 简单 | 🤩🤩🤩🤩 |
 
