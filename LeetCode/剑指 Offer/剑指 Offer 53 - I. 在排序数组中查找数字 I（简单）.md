@@ -1,6 +1,6 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/solution/gong-shui-san-xie-liang-chong-er-fen-ton-3epx/)** ，难度为 **中等**。
+这是 LeetCode 上的 **[剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/solution/gong-shui-san-xie-liang-chong-er-fen-ton-3epx/)** ，难度为 **简单**。
 
 Tag : 「二分」
 
