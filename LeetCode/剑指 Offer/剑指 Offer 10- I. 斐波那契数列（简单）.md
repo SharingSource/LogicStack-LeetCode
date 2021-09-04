@@ -145,8 +145,8 @@ f(n - 1)
 = 
 
 \begin{bmatrix}
-1, 1\\ 
-1, 0
+1& 1\\ 
+1& 0
 \end{bmatrix}
 
 *
@@ -162,8 +162,8 @@ $$
 $$
 mat = 
 \begin{bmatrix}
-1, 1\\ 
-1, 0
+1& 1\\ 
+1& 0
 \end{bmatrix}
 $$
 
