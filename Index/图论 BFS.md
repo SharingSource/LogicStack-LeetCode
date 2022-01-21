@@ -11,6 +11,7 @@
 | [1034. 边界着色](https://leetcode-cn.com/problems/coloring-a-border/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/coloring-a-border/solution/gong-shui-san-xie-tu-lun-sou-suo-zhuan-t-snvw/) | 中等 | 🤩🤩🤩🤩     |
 | [1036. 逃离大迷宫](https://leetcode-cn.com/problems/escape-a-large-maze/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/escape-a-large-maze/solution/gong-shui-san-xie-bfs-gei-ding-zhang-ai-8w63o/) | 中等 | 🤩🤩🤩🤩     |
 | [1162. 地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/gong-shui-san-xie-ru-he-shi-yong-duo-yua-vlea/) | 中等 | 🤩🤩🤩🤩     |
+| [1345. 跳跃游戏 IV](https://leetcode-cn.com/problems/jump-game-iv/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/jump-game-iv/solution/gong-shui-san-xie-noxiang-xin-ke-xue-xi-q9tb1/) | 困难 | 🤩🤩🤩🤩🤩    |
 | [2059. 转化数字的最小运算数](https://leetcode-cn.com/problems/minimum-operations-to-convert-number/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/minimum-operations-to-convert-number/solution/gong-shui-san-xie-shuang-xiang-bfs-mo-ba-uckg/) | 中等 | 🤩🤩🤩🤩🤩    |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/chuan-di-xin-xi/solution/gong-shui-san-xie-tu-lun-sou-suo-yu-dong-cyxo/) | 简单 | 🤩🤩🤩🤩     |
 
