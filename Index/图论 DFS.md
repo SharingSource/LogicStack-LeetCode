@@ -8,5 +8,6 @@
 | [1034. 边界着色](https://leetcode-cn.com/problems/coloring-a-border/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/coloring-a-border/solution/gong-shui-san-xie-tu-lun-sou-suo-zhuan-t-snvw/) | 中等 | 🤩🤩🤩🤩     |
 | [1723. 完成所有工作的最短时间](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/solution/gong-shui-san-xie-yi-ti-shuang-jie-jian-4epdd/) | 困难 | 🤩🤩🤩      |
 | [1766. 互质树](https://leetcode-cn.com/problems/tree-of-coprimes/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/tree-of-coprimes/solution/bu-tai-yi-yang-de-dfs-ji-lu-suo-you-zui-d3xeu/) | 困难 | 🤩🤩🤩🤩     |
+| [2049. 统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/solution/gong-shui-san-xie-jian-tu-dfs-by-ac_oier-ujfo/) | 中等 | 🤩🤩🤩🤩     |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/chuan-di-xin-xi/solution/gong-shui-san-xie-tu-lun-sou-suo-yu-dong-cyxo/) | 简单 | 🤩🤩🤩🤩     |
 
