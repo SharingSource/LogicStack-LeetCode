@@ -29,7 +29,7 @@ Tag : 「字符串」、「回溯算法」
 
 设计如下 `DFS` 函数：
 
-```Java []
+```Java
 /**
  *   cs : 原字符串
  *    u : 当前决策到目标字符串的哪一位
@@ -52,7 +52,7 @@ void dfs(char[] cs, int u, String cur);
 直接决策目标字符串哪一位取哪个字符即可，同时使用布尔数组记录哪些字符已使用。
 
 代码：
-```Java []
+```Java
 class Solution {
     int N = 10;
     Set<String> set = new HashSet<>();
@@ -101,7 +101,7 @@ class Solution {
 这里的「状态完全相同」是指：**当前形成部分结果为 $cur$ 相同，同时剩余字符集合也相同**。
 
 代码：
-```Java []
+```Java
 class Solution {
     int N = 10;
     List<String> list = new ArrayList<>();
@@ -139,7 +139,7 @@ class Solution {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer 38` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先将所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer 38` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
