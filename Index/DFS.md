@@ -39,4 +39,5 @@
 | [1723. 完成所有工作的最短时间](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/solution/gong-shui-san-xie-yi-ti-shuang-jie-jian-4epdd/) | 困难 | 🤩🤩🤩      |
 | [1766. 互质树](https://leetcode-cn.com/problems/tree-of-coprimes/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/tree-of-coprimes/solution/bu-tai-yi-yang-de-dfs-ji-lu-suo-you-zui-d3xeu/) | 困难 | 🤩🤩🤩🤩     |
 | [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/solution/by-ac_oier-dos6/) | 困难 | 🤩🤩🤩🤩     |
+| [面试题 04.06. 后继者](https://leetcode.cn/problems/successor-lcci/) | [LeetCode 题解链接](https://leetcode.cn/problems/successor-lcci/solution/by-ac_oier-xib5/) | 中等 | 🤩🤩🤩🤩🤩    |
 
