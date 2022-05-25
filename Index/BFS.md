@@ -14,6 +14,7 @@
 | [821. 字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/shortest-distance-to-a-character/solution/by-ac_oier-5bjs/) | 简单 | 🤩🤩🤩🤩     |
 | [838. 推多米诺](https://leetcode-cn.com/problems/push-dominoes/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/push-dominoes/solution/gong-shui-san-xie-yi-ti-shuang-jie-bfs-y-z52w/) | 中等 | 🤩🤩🤩🤩     |
 | [938. 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/range-sum-of-bst/solution/gong-shui-san-xie-yi-ti-shuang-jie-di-gu-q2fo/) | 简单 | 🤩🤩🤩      |
+| [965. 单值二叉树](https://leetcode.cn/problems/univalued-binary-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/univalued-binary-tree/solution/by-ac_oier-zxjl/) | 简单 | 🤩🤩🤩🤩     |
 | [993. 二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/cousins-in-binary-tree/solution/gong-shui-san-xie-shu-de-sou-suo-dfs-bfs-b200/) | 简单 | 🤩🤩       |
 | [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/even-odd-tree/solution/gong-shui-san-xie-yi-ti-shuang-jie-bfs-d-kuyi/) | 中等 | 🤩🤩🤩🤩🤩    |
 
