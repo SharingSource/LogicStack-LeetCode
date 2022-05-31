@@ -21,4 +21,5 @@
 | [2045. 到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/solution/gong-shui-san-xie-yi-ti-shuang-jie-dui-y-88np/) | 困难 | 🤩🤩🤩🤩     |
 | [2059. 转化数字的最小运算数](https://leetcode-cn.com/problems/minimum-operations-to-convert-number/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/minimum-operations-to-convert-number/solution/gong-shui-san-xie-shuang-xiang-bfs-mo-ba-uckg/) | 中等 | 🤩🤩🤩🤩🤩    |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/chuan-di-xin-xi/solution/gong-shui-san-xie-tu-lun-sou-suo-yu-dong-cyxo/) | 简单 | 🤩🤩🤩🤩     |
+| [剑指 Offer II 114. 外星文字典](https://leetcode.cn/problems/Jf1JuT/) | [LeetCode 题解链接](https://leetcode.cn/problems/Jf1JuT/solution/by-ac_oier-4xmv/) | 困难 | 🤩🤩🤩🤩     |
 
