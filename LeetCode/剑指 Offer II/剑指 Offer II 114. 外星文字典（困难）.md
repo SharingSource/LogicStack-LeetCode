@@ -49,7 +49,7 @@ Tag : 「图论」、「拓扑排序」、「建图」、「图论 BFS」
 
 为了方便，我们称 `words` 为 `ws`，同时将两个字符串 `a` 和 `b` 之间的字典序关系简称为「关系」。
 
-由于数组长度和每个 $ws[i]$ 的最大长度均为 $100$，我们可以实现复杂度为 $O(n^3)$ 复杂度的算法。
+由于数组长度和每个 $ws[i]$ 的最大长度均为 $100$，我们可以实现复杂度为 $O(n^3)$ 的算法。
 
 首先容易想到，我们从前往后处理每个 $ws[i]$，利用 `ws` 数组本身已按字典序排序，然后通过 $ws[i]$ 与 $ws[j]$ 的关系（其中 $j$ 的范围为 $[0, i - 1]$），来构建字符之间的关系。
 
@@ -67,7 +67,7 @@ class Solution {
     int N = 26, M = N * N, idx = 0, cnt = 0;
     int[] he = new int[N], e = new int[M], ne = new int[M];
     int[] in = new int[N], out = new int[N];
-    boolean[] vis = new boolean[26];
+    boolean[] vis = new boolean[N];
     void add(int a, int b) {
         e[idx] = b;
         ne[idx] = he[a];
