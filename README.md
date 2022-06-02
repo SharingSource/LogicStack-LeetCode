@@ -1,10 +1,8 @@
 ## 宫水三叶的刷题日记
 
-虽然仓库尚未装修完成，但所有的题解都已整理完成啦 🤣
+这是一个「日更」的算法仓库，每天至少新增一篇题解 🤣
 
 点击 [wiki](https://github.com/SharingSource/LogicStack-LeetCode/wiki) 即可看到所有按照 Tag 分类的内容 
-
-这两天会将每个 Tag 的内容都单独整理成 (普通/暗黑) PDF，方便大家离线阅读 🤣
 
 有任何问题欢迎你给我提 issue（issues 页有 [惊喜](https://github.com/SharingSource/LogicStack-LeetCode/issues/5)） 🤣
 
