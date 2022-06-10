@@ -4,6 +4,7 @@
 | [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/solution/gong-shui-san-xie-yi-ti-shuang-jie-ji-yi-92e5/) | 中等 | 🤩🤩🤩🤩🤩    |
 | [516. 最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/longest-palindromic-subsequence/solution/gong-shui-san-xie-qu-jian-dp-qiu-jie-zui-h2ya/) | 困难 | 🤩🤩🤩      |
 | [664. 奇怪的打印机](https://leetcode-cn.com/problems/strange-printer/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/strange-printer/solution/gong-shui-san-xie-noxiang-xin-ke-xue-xi-xqeo9/) | 困难 | 🤩🤩🤩🤩🤩    |
+| [730. 统计不同回文子序列](https://leetcode.cn/problems/count-different-palindromic-subsequences/) | [LeetCode 题解链接](https://leetcode.cn/problems/count-different-palindromic-subsequences/solution/by-ac_oier-lbva/) | 困难 | 🤩🤩🤩🤩🤩    |
 | [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/stone-game/solution/gong-shui-san-xie-jing-dian-qu-jian-dp-j-wn31/) | 中等 | 🤩🤩🤩🤩     |
 | [2104. 子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/sum-of-subarray-ranges/solution/gong-shui-san-xie-yi-ti-san-jie-qu-jian-wn84z/) | 中等 | 🤩🤩🤩🤩     |
 
