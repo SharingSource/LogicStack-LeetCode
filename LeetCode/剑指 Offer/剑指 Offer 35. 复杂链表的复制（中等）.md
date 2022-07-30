@@ -1,6 +1,6 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/gong-shui-san-xie-yi-ti-shuang-jie-ha-xi-pqek/)** ，难度为 **中等**。
+这是 LeetCode 上的 **[剑指 Offer 35. 复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/solution/by-ac_oier-6atv/)** ，难度为 **中等**。
 
 Tag : 「哈希表」、「链表」
 
@@ -21,7 +21,7 @@ Tag : 「哈希表」、「链表」
 
 你的代码 只 接受原链表的头节点 `head` 作为传入参数。
 
- 
+
 
 示例 1：
 ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/01/09/e1.png)
@@ -147,7 +147,7 @@ class Solution {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.138` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `No.剑指 Offer 35` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
