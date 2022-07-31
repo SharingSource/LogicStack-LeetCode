@@ -20,5 +20,6 @@
 | [965. 单值二叉树](https://leetcode.cn/problems/univalued-binary-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/univalued-binary-tree/solution/by-ac_oier-zxjl/) | 简单 | 🤩🤩🤩🤩     |
 | [993. 二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/cousins-in-binary-tree/solution/gong-shui-san-xie-shu-de-sou-suo-dfs-bfs-b200/) | 简单 | 🤩🤩       |
 | [1022. 从根到叶的二进制数之和](https://leetcode.cn/problems/sum-of-root-to-leaf-binary-numbers/) | [LeetCode 题解链接](https://leetcode.cn/problems/sum-of-root-to-leaf-binary-numbers/solution/by-ac_oier-1905/) | 简单 | 🤩🤩🤩🤩     |
+| [1161. 最大层内元素和](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree/solution/by-ac_oier-aemz/) | 中等 | 🤩🤩🤩🤩     |
 | [1609. 奇偶树](https://leetcode-cn.com/problems/even-odd-tree/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/even-odd-tree/solution/gong-shui-san-xie-yi-ti-shuang-jie-bfs-d-kuyi/) | 中等 | 🤩🤩🤩🤩🤩    |
 
