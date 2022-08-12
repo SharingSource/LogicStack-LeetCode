@@ -1,48 +1,32 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/solution/gong-shui-san-xie-yi-ti-shuang-jie-er-fe-y1ns/)** ，难度为 **中等**。
+这是 LeetCode 上的 **[剑指 Offer 04. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/solution/by-ac_oier-7jo0/)** ，难度为 **中等**。
 
-Tag : 「二分」、「二叉搜索树」、「模拟」
-
-
-
-编写一个高效的算法来搜索 `m x n` 矩阵 `matrix` 中的一个目标值 `target` 。
-
-该矩阵具有以下特性：
-
-* 每行的元素从左到右升序排列。
-* 每列的元素从上到下升序排列。
+Tag : 「二叉树搜索树」、「BST」、「二分」
 
 
-示例 1：
-![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/11/25/searchgrid2.jpg)
+
+在一个 $n \times m$ 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+
+示例:
 ```
-输入：matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5
+现有矩阵 matrix 如下：
 
-输出：true
-```
-示例 2：
-![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/11/25/searchgrid.jpg)
-```
-输入：matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20
+[
+  [1,   4,  7, 11, 15],
+  [2,   5,  8, 12, 19],
+  [3,   6,  9, 16, 22],
+  [10, 13, 14, 17, 24],
+  [18, 21, 23, 26, 30]
+]
 
-输出：false
+给定 target = 5，返回 true。
+给定 target = 20，返回 false。
 ```
 
-提示：
-* m == matrix.length
-* n == matrix[i].length
-* 1 <= n, m <= 300
-* $-10^9 <= matrix[i][j] <= 10^9$
-* 每行的所有元素从左到右升序排列
-* 每列的所有元素从上到下升序排列
-* $-10^9 <= target <= 10^9$
-
----
-
-### 前言
-
-这道题和之前的[（题解）74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/solution/gong-shui-san-xie-yi-ti-shuang-jie-er-fe-l0pq/) 类似，建议你将两题放到一起去做。
+限制：
+* $0 <= n <= 1000$
+* $0 <= m <= 1000$
 
 ---
 
@@ -56,6 +40,7 @@ Tag : 「二分」、「二叉搜索树」、「模拟」
 ```Java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
+        if (matrix.length == 0 || matrix[0].length == 0) return false;
         int m = matrix.length, n = matrix[0].length;
         for (int i = 0; i < m; i++) {
             int l = 0, r = n - 1;
@@ -70,11 +55,11 @@ class Solution {
     }
 }
 ```
-
-
+-
 ```Java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
+        if (matrix.length == 0 || matrix[0].length == 0) return false;
         int m = matrix.length, n = matrix[0].length;
         for (int i = 0; i < n; i++) {
             int l = 0, r = m - 1;
@@ -111,6 +96,7 @@ class Solution {
 ```Java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
+        if (matrix.length == 0 || matrix[0].length == 0) return false;
         int m = matrix.length, n = matrix[0].length;
         int r = 0, c = n - 1;
         while (r < m && c >= 0) {
@@ -129,7 +115,7 @@ class Solution {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.240` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer 04` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
