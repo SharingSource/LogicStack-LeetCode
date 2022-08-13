@@ -23,5 +23,6 @@
 | [1787. 使所有区间的异或结果为零](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/make-the-xor-of-all-segments-equal-to-zero/solution/gong-shui-san-xie-chou-xiang-cheng-er-we-ww79/) | 困难 | 🤩🤩🤩🤩 |
 | [剑指 Offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/solution/gong-shui-san-xie-yi-ti-si-jie-dong-tai-9zip0/) | 简单 | 🤩🤩🤩🤩🤩 |
 | [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/solution/gong-shui-san-xie-jian-dan-xian-xing-dp-mqk5v/) | 简单 | 🤩🤩🤩🤩🤩 |
+| [剑指 Offer II 003. 前 n 个数字二进制中 1 的个数](https://leetcode.cn/problems/w3tCBm/) | [LeetCode 题解链接](https://leetcode.cn/problems/w3tCBm/solution/by-ac_oier-cnlt/) | 简单 | 🤩🤩🤩 |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/chuan-di-xin-xi/solution/gong-shui-san-xie-tu-lun-sou-suo-yu-dong-cyxo/) | 简单 | 🤩🤩🤩🤩 |
 
