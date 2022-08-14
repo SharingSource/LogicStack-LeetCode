@@ -1,14 +1,13 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/solution/gong-shui-san-xie-noxiang-xin-ke-xue-xi-bmjdg/)** ，难度为 **中等**。
+这是 LeetCode 上的 **[剑指 Offer II 067. 最大的异或](https://leetcode.cn/problems/ms70jA/solution/by-ac_oier-d9kx/)** ，难度为 **中等**。
 
-Tag : 「字典树」、「贪心」
+Tag : 「贪心」、「字典树」
 
 
 
-给你一个整数数组 $nums$ ，返回 `nums[i] XOR nums[j]` 的最大运算结果，其中 $0 ≤ i ≤ j < n$ 。
 
-**进阶**：你可以在 $O(n)$ 的时间解决这个问题吗？
+给定一个整数数组 `nums`，返回 `nums[i] XOR nums[j]` 的最大运算结果，其中 $0 ≤ i ≤ j < n$ 。
 
 示例 1：
 ```
@@ -46,6 +45,9 @@ Tag : 「字典树」、「贪心」
 提示：
 * $1 <= nums.length <= 2 \times 10^4$
 * $0 <= nums[i] <= 2^{31} - 1$
+
+
+进阶：你可以在 $O(n)$ 的时间解决这个问题吗？
 
 ---
 
@@ -194,7 +196,7 @@ class Solution {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.421` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `No.剑指 Offer II 067` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
