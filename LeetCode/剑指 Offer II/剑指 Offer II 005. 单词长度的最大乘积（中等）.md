@@ -1,0 +1,121 @@
+### 题目描述
+
+这是 LeetCode 上的 **[剑指 Offer II 005. 单词长度的最大乘积](https://leetcode.cn/problems/aseY1I/solution/by-ac_oier-qk3a/)** ，难度为 **中等**。
+
+Tag :「模拟」、「位运算」
+
+
+
+给定一个字符串数组 `words`，请计算当两个字符串 `words[i]` 和 `words[j]` 不包含相同字符时，它们长度的乘积的最大值。假设字符串中只包含英语的小写字母。如果没有不包含相同字符的一对字符串，返回 $0$。
+
+示例 1:
+```
+输入: words = ["abcw","baz","foo","bar","fxyz","abcdef"]
+
+输出: 16 
+
+解释: 这两个单词为 "abcw", "fxyz"。它们不包含相同字符，且长度的乘积最大。
+```
+示例 2:
+```
+输入: words = ["a","ab","abc","d","cd","bcd","abcd"]
+
+输出: 4 
+
+解释: 这两个单词为 "ab", "cd"。
+```
+示例 3:
+```
+输入: words = ["a","aa","aaa","aaaa"]
+
+输出: 0 
+
+解释: 不存在这样的两个单词。
+```
+
+提示：
+* $2 <= words.length <= 1000$
+* $1 <= words[i].length <= 1000$
+* `words[i]` 仅包含小写字母
+
+---
+
+### 模拟
+
+根据题意进行模拟即可，利用每个 $words[i]$ 只有小写字母，且只需要区分两字符是否有字母重复。
+
+我们可以使用一个 `int` 来代指某个 $word[i]$：低 $26$ 来代指字母 `a-z` 是否出现过。
+
+然后对每个「字符对」所对应的两个 `int` 值执行 `&` 操作（若两字符无重复字符，则结果为 $0$），并得出最终答案。
+
+代码：
+```Java []
+class Solution {
+    public int maxProduct(String[] words) {
+        int n = words.length, idx = 0;
+        int[] masks = new int[n];
+        for (String w : words) {
+            int t = 0;
+            for (int i = 0; i < w.length(); i++) {
+                int u = w.charAt(i) - 'a';
+                t |= (1 << u);
+            }
+            masks[idx++] = t;
+        }
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                if ((masks[i] & masks[j]) == 0) ans = Math.max(ans, words[i].length() * words[j].length());
+            }
+        }
+        return ans;
+    }
+}
+```
+* 时间复杂度：令 $n$ 为 $words$ 数组的长度，转换出 $masks$ 的复杂度为 $O(\sum_{i = 0}^{i = n - 1}words[i].length)$；得到答案的复杂度为 $O(n^2)$。整体复杂度为 $O(\max(\sum_{i = 0}^{i = n - 1}words[i].length, n^2))$
+* 空间复杂度：$O(n)$
+
+---
+
+### 优化
+
+不难发现，对于词频相同（$mask$ 值相等）的两字符，只需要保留字符长度大的即可，因此我们可以使用「哈希表」代替 $masks$ 数组。
+
+代码：
+```Java
+class Solution {
+    public int maxProduct(String[] words) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (String w : words) {
+            int t = 0, m = w.length();
+            for (int i = 0; i < m; i++) {
+                int u = w.charAt(i) - 'a';
+                t |= (1 << u);
+            }
+            if (!map.containsKey(t) || map.get(t) < m) map.put(t, m);
+        }
+        int ans = 0;
+        for (int a : map.keySet()) {
+            for (int b : map.keySet()) {
+                if ((a & b) == 0) ans = Math.max(ans, map.get(a) * map.get(b));
+            }
+        }
+        return ans;
+    }
+}
+```
+* 时间复杂度：令 $n$ 为 $words$ 数组的长度，得到 $map$ 的复杂度为 $O(\sum_{i = 0}^{i = n - 1}words[i].length)$；得到答案的复杂度为 $O(n^2)$。整体复杂度为 $O(\max(\sum_{i = 0}^{i = n - 1}words[i].length, n^2))$
+* 空间复杂度：$O(n)$
+
+---
+
+### 最后
+
+这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer II 005` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+
+在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
+
+为了方便各位同学能够电脑上进行调试和提交代码，我建立了相关的仓库：https://github.com/SharingSource/LogicStack-LeetCode 。
+
+在仓库地址里，你可以看到系列文章的题解链接、系列文章的相应代码、LeetCode 原题链接和其他优选题解。
+
