@@ -1,6 +1,6 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[15. 三数之和](https://leetcode-cn.com/problems/3sum/solution/shua-chuan-lc-pai-xu-shuang-zhi-zhen-jie-cd8r/)** ，难度为 **中等**。
+这是 LeetCode 上的 **[剑指 Offer II 007. 数组中和为 0 的三个数](https://leetcode.cn/problems/1fGaJU/solution/by-ac_oier-6mfb/)** ，难度为 **中等**。
 
 Tag : 「双指针」、「排序」、「n 数之和」
 
@@ -85,7 +85,7 @@ class Solution {
 ---
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.15` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer II 007` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
