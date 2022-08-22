@@ -1,6 +1,6 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/solution/by-ac_oier-pttu/)** ，难度为 **中等**。
+这是 LeetCode 上的 **[剑指 Offer II 010. 和为 k 的子数组](https://leetcode.cn/problems/QTMn0o/solution/by-ac_oier-hr6k/)** ，难度为 **中等**。
 
 Tag : 「前缀和」、「哈希表」
 
@@ -77,7 +77,7 @@ function subarraySum(nums: number[], k: number): number {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.560` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer II 010` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
