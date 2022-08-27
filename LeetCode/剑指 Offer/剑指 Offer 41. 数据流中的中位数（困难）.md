@@ -1,6 +1,6 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[295. 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/solution/gong-shui-san-xie-jing-dian-shu-ju-jie-g-pqy8/)** ，难度为 **困难**。
+这是 LeetCode 上的 **[剑指 Offer 41. 数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/solution/by-ac_oier-exn5/)** ，难度为 **困难**。
 
 Tag : 「优先队列（堆）」
 
@@ -106,7 +106,7 @@ class MedianFinder {
 
 和上一问解法类似，对于 $1$% 采用哨兵机制进行解决即可，在常规的最小桶和最大桶两侧分别维护一个有序序列，即建立一个代表负无穷和正无穷的桶。
 
-上述两个进阶问题的代码如下，但注意由于真实样例的数据分布不是进阶所描述的那样（不是绝大多数都在 $[0,100]$ 范围内），会 `TLE`。
+上述两个进阶问题的代码如下，但注意由于真实样例的数据分布不是进阶所描述的那样（不是绝大多数都在 $[0,100]$ 范围内），所以会 `TLE`。
 
 代码：
 ```Java
@@ -159,7 +159,7 @@ class MedianFinder {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.295` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `剑指 Offer 41` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
