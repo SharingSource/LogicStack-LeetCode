@@ -1,6 +1,6 @@
 ### 题目描述
 
-这是 LeetCode 上的 **[239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/solution/by-ac_oier-o89l/)** ，难度为 **困难**。
+这是 LeetCode 上的 **[剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/solution/by-ac_oier-sjym/)** ，难度为 **困难**。
 
 Tag : 「优先队列（堆）」、「线段树」、「分块」、「单调队列」、「RMQ」
 
@@ -233,7 +233,7 @@ class Solution {
 
 ### 最后
 
-这是我们「刷穿 LeetCode」系列文章的第 `No.239` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
+这是我们「刷穿 LeetCode」系列文章的第 `No.剑指 Offer 59 - I` 篇，系列开始于 2021/01/01，截止于起始日 LeetCode 上共有 1916 道题目，部分是有锁题，我们将先把所有不带锁的题目刷完。
 
 在这个系列文章里面，除了讲解解题思路以外，还会尽可能给出最为简洁的代码。如果涉及通解还会相应的代码模板。
 
