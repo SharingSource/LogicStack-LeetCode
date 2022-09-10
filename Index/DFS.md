@@ -36,6 +36,7 @@
 | [654. 最大二叉树](https://leetcode.cn/problems/maximum-binary-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/maximum-binary-tree/solution/by-ac_oier-s0wc/) | 中等 | 🤩🤩🤩🤩🤩    |
 | [655. 输出二叉树](https://leetcode.cn/problems/print-binary-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/print-binary-tree/solution/by-ac_oier-mays/) | 中等 | 🤩🤩🤩🤩     |
 | [662. 二叉树最大宽度](https://leetcode.cn/problems/maximum-width-of-binary-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/maximum-width-of-binary-tree/solution/by-ac_oier-33er/) | 中等 | 🤩🤩🤩🤩     |
+| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/) | [LeetCode 题解链接](https://leetcode.cn/problems/trim-a-binary-search-tree/solution/by-ac_oier-help/) | 中等 | 🤩🤩🤩🤩     |
 | [676. 实现一个魔法字典](https://leetcode.cn/problems/implement-magic-dictionary/) | [LeetCode 题解链接](https://leetcode.cn/problems/implement-magic-dictionary/solution/by-ac_oier-a01l/) | 中等 | 🤩🤩🤩🤩🤩    |
 | [677. 键值映射](https://leetcode-cn.com/problems/map-sum-pairs/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/map-sum-pairs/solution/gong-shui-san-xie-jie-he-dfs-de-trie-yun-i4xa/) | 中等 | 🤩🤩🤩🤩     |
 | [687. 最长同值路径](https://leetcode.cn/problems/longest-univalue-path/) | [LeetCode 题解链接](https://leetcode.cn/problems/longest-univalue-path/solution/by-ac_oier-8ue8/) | 中等 | 🤩🤩🤩🤩     |
