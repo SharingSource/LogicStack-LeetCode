@@ -6,6 +6,7 @@
 | [91. 解码方法](https://leetcode-cn.com/problems/decode-ways/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/decode-ways/solution/gong-shui-san-xie-gen-ju-shu-ju-fan-wei-ug3dd/) | 中等 | 🤩🤩🤩 |
 | [115. 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/distinct-subsequences/solution/xiang-jie-zi-fu-chuan-pi-pei-wen-ti-de-t-wdtk/) | 困难 | 🤩🤩🤩🤩 |
 | [119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/pascals-triangle-ii/solution/dong-tai-gui-hua-luo-ti-chang-jian-de-ko-n2xj/) | 简单 | 🤩🤩🤩 |
+| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/) | [LeetCode 题解链接](https://leetcode.cn/problems/house-robber/solution/by-ac_oier-7v1g/) | 中等 | 🤩🤩🤩 |
 | [213. 打家劫舍 II](https://leetcode-cn.com/problems/house-robber-ii/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/house-robber-ii/solution/gong-shui-san-xie-ru-he-jiang-xin-xian-z-zf0w/) | 中等 | 🤩🤩🤩 |
 | [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/counting-bits/solution/po-su-jie-fa-dong-tai-gui-hua-jie-fa-by-vvail/) | 简单 | 🤩🤩🤩 |
 | [403. 青蛙过河](https://leetcode-cn.com/problems/frog-jump/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/frog-jump/solution/gong-shui-san-xie-yi-ti-duo-jie-jiang-di-74fw/) | 困难 | 🤩🤩🤩 |
