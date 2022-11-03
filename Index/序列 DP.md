@@ -25,6 +25,7 @@
 | [1235. 规划兼职工作](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/) | [LeetCode 题解链接](https://leetcode.cn/problems/maximum-profit-in-job-scheduling/solution/by-ac_oier-rgup/) | 困难 | 🤩🤩🤩🤩     |
 | [1473. 粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/paint-house-iii/solution/gong-shui-san-xie-san-wei-dong-tai-gui-h-ud7m/) | 困难 | 🤩🤩🤩🤩     |
 | [1537. 最大得分](https://leetcode.cn/problems/get-the-maximum-score/) | [LeetCode 题解链接](https://leetcode.cn/problems/get-the-maximum-score/solution/by-ac_oier-ht78/) | 困难 | 🤩🤩🤩🤩     |
+| [1668. 最大重复子字符串](https://leetcode.cn/problems/maximum-repeating-substring/) | [LeetCode 题解链接](https://leetcode.cn/problems/maximum-repeating-substring/solution/by-ac_oier-xjhn/) | 简单 | 🤩🤩🤩🤩🤩    |
 | [1713. 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/solution/gong-shui-san-xie-noxiang-xin-ke-xue-xi-oj7yu/) | 困难 | 🤩🤩🤩🤩🤩    |
 | [1751. 最多可以参加的会议数目 II](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii/solution/po-su-dp-er-fen-dp-jie-fa-by-ac_oier-88du/) | 困难 | 🤩🤩🤩🤩     |
 
