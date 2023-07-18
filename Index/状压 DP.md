@@ -6,4 +6,5 @@
 | [943. 最短超级串](https://leetcode.cn/problems/find-the-shortest-superstring/) | [LeetCode 题解链接](https://leetcode.cn/problems/find-the-shortest-superstring/solution/gong-shui-san-xie-zhuang-ya-dp-yun-yong-p6hlz/) | 困难 | 🤩🤩🤩🤩🤩    |
 | [1994. 好子集的数目](https://leetcode-cn.com/problems/the-number-of-good-subsets/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/the-number-of-good-subsets/solution/gong-shui-san-xie-zhuang-ya-dp-yun-yong-gz4w5/) | 困难 | 🤩🤩🤩🤩     |
 | [2044. 统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/solution/by-ac_oier-dos6/) | 困难 | 🤩🤩🤩🤩     |
+| [2305. 公平分发饼干](https://leetcode.cn/problems/fair-distribution-of-cookies/) | [LeetCode 题解链接](https://leetcode.cn/problems/fair-distribution-of-cookies/solution/gong-shui-san-xie-jian-dan-zhuang-ya-dp-trg25/) | 中等 | 🤩🤩🤩🤩🤩    |
 
