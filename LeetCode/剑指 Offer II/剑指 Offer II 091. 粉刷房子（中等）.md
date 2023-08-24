@@ -54,7 +54,7 @@ Tag : 「状态机 DP」、「动态规划」
 
 一些细节：考虑到我们 $f[i][X]$ 的计算只依赖于 $f[i - 1][X]$，因此我们可以使用三个变量来代替我们的动规数组。
 
-代码：
+Java 代码：
 ```Java
 class Solution {
     public int minCost(int[][] cs) {
@@ -71,7 +71,7 @@ class Solution {
 }
 ```
 
--
+Java 代码：
 
 ```Java
 class Solution {
