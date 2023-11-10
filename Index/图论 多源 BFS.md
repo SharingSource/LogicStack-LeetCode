@@ -4,4 +4,5 @@
 | [1020. 飞地的数量](https://leetcode-cn.com/problems/number-of-enclaves/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/number-of-enclaves/solution/gong-shui-san-xie-bing-cha-ji-dfs-yun-yo-oyh1/) | 中等 | 🤩🤩🤩🤩     |
 | [1162. 地图分析](https://leetcode-cn.com/problems/as-far-from-land-as-possible/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/gong-shui-san-xie-ru-he-shi-yong-duo-yua-vlea/) | 中等 | 🤩🤩🤩🤩🤩    |
 | [1765. 地图中的最高点](https://leetcode-cn.com/problems/map-of-highest-peak/) | [LeetCode 题解链接](https://leetcode-cn.com/problems/map-of-highest-peak/solution/gong-shui-san-xie-duo-yuan-bfs-yun-yong-8sw0f/) | 中等 | 🤩🤩🤩🤩     |
+| [2258. 逃离火灾](https://leetcode.cn/problems/escape-the-spreading-fire/) | [LeetCode 题解链接](https://leetcode.cn/problems/escape-the-spreading-fire/solutions/2518985/gong-shui-san-xie-xiang-jie-ru-he-cong-e-458x/) | 困难 | 🤩🤩🤩🤩🤩    |
 
