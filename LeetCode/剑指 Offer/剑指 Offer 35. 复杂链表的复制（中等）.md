@@ -8,18 +8,24 @@ Tag : 「哈希表」、「链表」
 
 给你一个长度为 `n` 的链表，每个节点包含一个额外增加的随机指针 `random`，该指针可以指向链表中的任何节点或空节点。
 
-构造这个链表的 深拷贝。 深拷贝应该正好由 `n` 个 全新 节点组成，其中每个新节点的值都设为其对应的原节点的值。新节点的 `next` 指针和 `random` 指针也都应指向复制链表中的新节点，并使原链表和复制链表中的这些指针能够表示相同的链表状态。复制链表中的指针都不应指向原链表中的节点 。
+构造这个链表的深拷贝。
+
+深拷贝应该正好由 `n` 个 全新 节点组成，其中每个新节点的值都设为其对应的原节点的值。
+
+新节点的 `next` 指针和 `random` 指针也都应指向复制链表中的新节点，并使原链表和复制链表中的这些指针能够表示相同的链表状态，复制链表中的指针都不应指向原链表中的节点 。
 
 例如，如果原链表中有 `X` 和 `Y` 两个节点，其中 `X.random --> Y` 。那么在复制链表中对应的两个节点 `x` 和 `y` ，同样有 `x.random --> y` 。
 
 返回复制链表的头节点。
 
-用一个由 `n` 个节点组成的链表来表示输入/输出中的链表。每个节点用一个 `[val, random_index]` 表示：
+用一个由 `n` 个节点组成的链表来表示输入/输出中的链表。
+
+每个节点用一个 `[val, random_index]` 表示：
 
 * `val`：一个表示 `Node.val` 的整数。
 * `random_index`：随机指针指向的节点索引（范围从 $0$ 到 $n-1$）；如果不指向任何节点，则为  `null` 。
 
-你的代码 只 接受原链表的头节点 `head` 作为传入参数。
+你的代码只接受原链表的头节点 `head` 作为传入参数。
 
 
 
@@ -69,7 +75,7 @@ Tag : 「哈希表」、「链表」
 1. 先不考虑 `random` 指针，和原本的链表复制一样，创建新新节点，并构造 `next` 指针关系，同时使用「哈希表」记录原节点和新节点的映射关系；
 2. 对原链表和新链表进行同时遍历，对于原链表的每个节点上的 `random` 都通过「哈希表」找到对应的新 `random` 节点，并在新链表上构造 `random` 关系。
 
-代码：
+Java 代码：
 ```Java
 class Solution {
     public Node copyRandomList(Node head) {
@@ -90,6 +96,49 @@ class Solution {
         return dummy.next;
     }
 }
+```
+C++ 代码：
+```C++
+class Solution {
+public:
+    Node* copyRandomList(Node* head) {
+        Node* t = head;
+        Node* dummy = new Node(-10010), *cur = dummy;
+        unordered_map<Node*, Node*> map;
+        while (head != nullptr) {
+            Node* node = new Node(head->val);
+            map[head] = node;
+            cur->next = node;
+            cur = cur->next; head = head->next;
+        }
+        cur = dummy->next; head = t;
+        while (head != nullptr) {
+            cur->random = map[head->random];
+            cur = cur->next; head = head->next;
+        }
+        return dummy->next;
+    }
+};
+```
+Python 代码：
+```Python
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        t = head
+        dummy = Node(-10010)
+        cur = dummy
+        mapping = {}
+        while head:
+            node = Node(head.val)
+            mapping[head] = node
+            cur.next = node
+            cur, head = cur.next, head.next
+        cur, head = dummy.next, t
+        while head:
+            if head.random in mapping:
+                cur.random = mapping[head.random]
+            cur, head = cur.next, head.next
+        return dummy.next
 ```
 * 时间复杂度：$O(n)$
 * 空间复杂度：$O(n)$
@@ -112,7 +161,7 @@ class Solution {
 
 ![image.png](https://pic.leetcode-cn.com/1626919165-GuGmGo-image.png)
 
-代码：
+Java 代码：
 ```Java
 class Solution {
     public Node copyRandomList(Node head) {
@@ -139,6 +188,60 @@ class Solution {
         return ans;
     }
 }
+```
+C++ 代码：
+```C++
+class Solution {
+public:
+    Node* copyRandomList(Node* head) {
+        if (!head) return head;
+        Node* t = head;
+        while (head) {
+            Node* node = new Node(head->val);
+            node->next = head->next;
+            head->next = node;
+            head = node->next;
+        }
+        head = t;
+        while (head) {
+            if (head->random) head->next->random = head->random->next;
+            head = head->next->next;
+        }
+        head = t;
+        Node* ans = head->next;
+        while (head) {
+            Node* ne = head->next;
+            if (ne) head->next = ne->next;
+            head = ne;
+        }
+        return ans;
+    }
+};
+```
+Python 代码：
+```Python
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        if not head: return head
+        t = head
+        while head:
+            node = Node(head.val)
+            node.next = head.next
+            head.next = node
+            head = node.next
+        head = t
+        while head:
+            if head.random:
+                head.next.random = head.random.next
+            head = head.next.next
+        head = t
+        ans = head.next
+        while head:
+            ne = head.next
+            if ne:
+                head.next = ne.next
+            head = ne
+        return ans
 ```
 * 时间复杂度：$O(n)$
 * 空间复杂度：$O(1)$
