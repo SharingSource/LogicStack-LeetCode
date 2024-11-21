@@ -6,16 +6,22 @@ Tag : 「图论」、「拓扑排序」、「建图」、「图论 BFS」
 
 
 
-给定一个长度为 `n` 的整数数组 `nums` ，其中 `nums` 是范围为 $[1，n]$ 的整数的排列。还提供了一个 `2D` 整数数组 `sequences`，其中 `sequences[i]` 是 `nums` 的子序列。
+给定一个长度为 `n` 的整数数组 `nums` ，其中 `nums` 是范围为 $[1，n]$ 的整数的排列。
 
-检查 `nums` 是否是唯一的最短 超序列 。最短 超序列 是 长度最短 的序列，并且所有序列 `sequences[i]` 都是它的子序列。对于给定的数组 `sequences`，可能存在多个有效的 超序列 。
+还提供了一个 `2D` 整数数组 `sequences`，其中 `sequences[i]` 是 `nums` 的子序列。
 
-* 例如，对于 `sequences = [[1,2],[1,3]]` ，有两个最短的 超序列，`[1,2,3]` 和 `[1,3,2]` 。
-* 而对于 `sequences = [[1,2],[1,3],[1,2,3]]`，唯一可能的最短 超序列 是 `[1,2,3]` 。`[1,2,3,4]` 是可能的超序列，但不是最短的。
+检查 `nums` 是否是唯一的最短超序列。
 
-如果 `nums` 是序列的唯一最短 超序列 ，则返回 `true` ，否则返回 `false` 。
+最短超序列是长度最短的序列，并且所有序列 `sequences[i]` 都是它的子序列。
 
-子序列 是一个可以通过从另一个序列中删除一些元素或不删除任何元素，而不改变其余元素的顺序的序列。
+对于给定的数组 `sequences`，可能存在多个有效的超序列。
+
+* 例如，对于 `sequences = [[1,2],[1,3]]` ，有两个最短的超序列，`[1,2,3]` 和 `[1,3,2]` 。
+* 而对于 `sequences = [[1,2],[1,3],[1,2,3]]`，唯一可能的最短超序列是 `[1,2,3]` 。`[1,2,3,4]` 是可能的超序列，但不是最短的。
+
+如果 `nums` 是序列的唯一最短超序列，则返回 `true` ，否则返回 `false` 。
+
+子序列是一个可以通过从另一个序列中删除一些元素或不删除任何元素，而不改变其余元素的顺序的序列。
 
 示例 1：
 ```
@@ -52,14 +58,14 @@ Tag : 「图论」、「拓扑排序」、「建图」、「图论 BFS」
 ```
 
 提示：
-* $n == nums.length$
+* $n = nums.length$
 * $1 <= n <= 104$
 * `nums` 是 $[1, n]$ 范围内所有整数的排列
 * $1 <= sequences.length <= 10^4$
 * $1 <= sequences[i].length <= 104$
 * $1 <= sum(sequences[i].length) <= 10^5$
 * $1 <= sequences[i][j] <= n$
-* `sequences` 的所有数组都是 唯一 的
+* `sequences` 的所有数组都是唯一的
 * `sequences[i]` 是 `nums` 的一个子序列
 
 ---
@@ -114,6 +120,43 @@ class Solution {
         return true;
     }
 }
+```
+C++ 代码：
+```C++
+class Solution {
+public:
+    int N = 10010, M = N, idx;
+    vector<int> he, e, ne, in;
+    void add(int a, int b) {
+        e[idx] = b;
+        ne[idx] = he[a];
+        he[a] = idx++;
+        in[b]++;
+    }
+    Solution() : he(N, -1), e(M), ne(M), in(N, 0) {}
+    bool sequenceReconstruction(vector<int>& nums, vector<vector<int>>& ss) {
+        int n = nums.size();
+        fill(he.begin(), he.end(), -1);
+        for (auto& s : ss) {
+            for (int i = 1; i < s.size(); i++) add(s[i - 1], s[i]);
+        }
+        deque<int> d;
+        for (int i = 1; i <= n; i++) {
+            if (in[i] == 0) d.push_back(i);
+        }
+        int loc = 0;
+        while (!d.empty()) {
+            if (d.size() != 1) return false;
+            int t = d.front(); d.pop_front();
+            if (nums[loc++] != t) return false;
+            for (int i = he[t]; i != -1; i = ne[i]) {
+                int j = e[i];
+                if (--in[j] == 0) d.push_back(j);
+            }
+        }
+        return true;
+    }
+};
 ```
 TypeScript 代码：
 ```TypeScript
